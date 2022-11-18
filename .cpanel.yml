@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/a1668oon/public_html/
+    - /home2/a1668oon/repositories/varmalabswebv2	 -R * $DEPLOYPATH
